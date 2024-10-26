@@ -1,0 +1,29 @@
+{
+  "name": "@noodlestan/eslint-config",
+  "version": "0.0.1",
+  "description": "UI system",
+  "author": "Noodlestan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodlestan/eslint-config"
+  },
+  "scripts": {
+    "lint": "prettier . -c && eslint .",
+    "lint:silent": "prettier . -c --log-level silent && eslint ."
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.8",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-plugin-solid": "^0.13.1",
+    "lefthook": "^1.5.5",
+    "prettier": "^3.2.5",
+    "typescript": "5.3.3"
+  }
+}
