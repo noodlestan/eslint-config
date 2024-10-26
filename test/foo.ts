@@ -1,1 +1,1 @@
-const bar = 'ffdfd';
+export const bar = 'foooo';
