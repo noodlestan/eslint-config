@@ -18,6 +18,8 @@ First make sure you are using the correct node version by running `nvm use`.
 
 Install dependencies with `npm install`.
 
+Run `npm run lint`. It will lint the example files provided.
+
 ### Contributing
 
 👐 **We welcome contributions!**
