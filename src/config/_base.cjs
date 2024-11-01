@@ -1,13 +1,8 @@
 const baseRules = require('./rules/_base.cjs');
 
 const base = {
-    plugins: ['import', 'security', 'prettier'],
-    extends: [
-        'eslint:recommended',
-        'standard',
-        'plugin:prettier/recommended',
-        'plugin:security/recommended',
-    ],
+    plugins: ['import', 'prettier'],
+    extends: ['eslint:recommended', 'standard', 'plugin:prettier/recommended'],
     parserOptions: {
         sourceType: 'module',
         ecmaFeatures: {
