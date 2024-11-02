@@ -4,6 +4,13 @@
   "description": "Shareable and opinionated ESLint configuration",
   "author": "Noodlestan",
   "license": "MIT",
+  "files": [
+    "src",
+    "LICENSE-MIT"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": ".eslintrc.cjs",
   "repository": {
     "type": "git",
