@@ -1,6 +1,6 @@
 {
   "name": "@noodlestan/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable and opinionated ESLint configuration",
   "author": "Noodlestan",
   "license": "MIT",
@@ -20,19 +20,22 @@
     "lint": "prettier . -c && eslint .",
     "lint:silent": "prettier . -c --log-level silent && eslint ."
   },
-  "devDependencies": {
-    "@types/eslint": "9.6.1",
-    "@types/node": "22.8.1",
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "8.11.0",
-    "@typescript-eslint/parser": "8.11.0",
-    "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-solid": "0.14.3",
-    "lefthook": "1.5.5",
-    "prettier": "3.3.3",
-    "typescript": "5.6.3"
+    "eslint-plugin-solid": "0.14.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "9.6.1",
+    "@types/node": "22.8.1",
+    "@typescript-eslint/parser": "8.11.0"
   }
 }
