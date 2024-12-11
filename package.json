@@ -1,21 +1,21 @@
 {
   "name": "@noodlestan/eslint-config",
   "version": "0.0.3",
-  "description": "Shareable and opinionated ESLint configuration",
-  "author": "Noodlestan",
+  "description": "Noodlestan's opinionated style guide configuration (ESLint + Prettier).",
+  "author": "Noodlestan Collective",
   "license": "MIT",
-  "files": [
-    "src",
-    "LICENSE-MIT"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": ".eslintrc.cjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/noodlestan/eslint-config"
   },
+  "main": ".eslintrc.cjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "LICENSE-MIT"
+  ],
   "scripts": {
     "lint": "prettier . -c && eslint .",
     "lint:silent": "prettier . -c --log-level silent && eslint ."
@@ -37,7 +37,8 @@
   "devDependencies": {
     "@types/eslint": "9.6.1",
     "@types/node": "22.8.1",
-    "@typescript-eslint/parser": "8.11.0"
+    "@typescript-eslint/parser": "8.11.0",
+    "eslint": "8.57.1"
   },
   "engines": {
     "node": "20.10.0"
