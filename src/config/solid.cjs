@@ -5,8 +5,8 @@ const solidRules = require('./rules/solid.cjs');
 const overrides = [
     {
         files: ['**/*.tsx'],
-        plugins: ['solid', 'jsx-a11y'],
-        extends: ['plugin:jsx-a11y/recommended'],
+        plugins: ['solid'],
+        extends: ['plugin:jsx-a11y/recommended', 'plugin:solid/recommended'],
         parser: '@typescript-eslint/parser',
         parserOptions: {
             project: './tsconfig.json',

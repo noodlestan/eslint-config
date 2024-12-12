@@ -4,6 +4,7 @@ const typescriptRules = require('./rules/typescript.cjs');
 const overrides = [
     {
         files: ['**/*.{ts,tsx}'],
+        excludedFiles: ['**/*.d.ts'],
         plugins: ['@typescript-eslint'],
         extends: ['plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
         parser: '@typescript-eslint/parser',
