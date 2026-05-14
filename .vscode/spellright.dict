@@ -18,3 +18,5 @@ Vite
 linting
 monorepo
 Vue
+mjs
+ecma

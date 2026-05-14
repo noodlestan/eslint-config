@@ -24,9 +24,9 @@
     "@typescript-eslint/eslint-plugin": "8.11.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-mdx": "3.1.5",
-    "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-solid": "0.14.3"
   },
@@ -39,10 +39,10 @@
     "@types/eslint": "9.6.1",
     "@types/node": "22.8.1",
     "@typescript-eslint/parser": "8.11.0",
-    "solid-js": "1.9.1",
-    "eslint": "8.57.1"
+    "eslint": "8.57.1",
+    "solid-js": "^1.9.12"
   },
   "engines": {
-    "node": "20.10.0"
+    "node": "24.15.0"
   }
 }
